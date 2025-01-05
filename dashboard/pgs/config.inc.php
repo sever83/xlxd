@@ -26,21 +26,21 @@ $PageOptions['NumberOfModules']                      = 10;		// Number of Modules
 
 $PageOptions['RepeatersPage'] = array();
 $PageOptions['RepeatersPage']['LimitTo']             = 99;		// Number of Repeaters to show
-$PageOptions['RepeatersPage']['IPModus']             = 'ShowFullIP';	// See possible options above
+$PageOptions['RepeatersPage']['IPModus']             = 'HideIP';	// See possible options above
 $PageOptions['RepeatersPage']['MasqueradeCharacter'] = '*';		// Character used for  masquerade
 
 $PageOptions['PeerPage'] = array();
 $PageOptions['PeerPage']['LimitTo']                  = 99;		// Number of peers to show
-$PageOptions['PeerPage']['IPModus']                  = 'ShowFullIP';	// See possible options above
+$PageOptions['PeerPage']['IPModus']                  = 'HideIP';	// See possible options above
 $PageOptions['PeerPage']['MasqueradeCharacter']      = '*';		// Character used for  masquerade
 
 $PageOptions['LastHeardPage']['LimitTo']             = 39;		// Number of stations to show
 
 $PageOptions['ModuleNames'] = array();					// Module nomination
-$PageOptions['ModuleNames']['A']                     = 'Int.';
-$PageOptions['ModuleNames']['B']                     = 'Regional';
-$PageOptions['ModuleNames']['C']                     = 'National';
-$PageOptions['ModuleNames']['D']                     = '';
+$PageOptions['ModuleNames']['A']                     = 'MODULE_A';
+$PageOptions['ModuleNames']['B']                     = 'MODULE_B';
+$PageOptions['ModuleNames']['C']                     = 'MODULE_C';
+$PageOptions['ModuleNames']['D']                     = 'MODULE_D';
 
 $PageOptions['MetaDescription']                      = 'XLX is a D-Star Reflector System for Ham Radio Operators.';	// Meta Tag Values, usefull for Search Engine
 $PageOptions['MetaKeywords']                         = 'Ham Radio, D-Star, XReflector, XLX, XRF, DCS, REF, ';		// Meta Tag Values, usefull forSearch Engine
@@ -57,7 +57,7 @@ $PageOptions['CustomTXT']                            = '';					// custom text in
 $Service['PIDFile']                                  = '/var/log/xlxd.pid';
 $Service['XMLFile']                                  = '/var/log/xlxd.xml';
 
-$CallingHome['Active']                               = false;					// xlx phone home, true or false
+$CallingHome['Active']                               = true;					// xlx phone home, true or false
 $CallingHome['MyDashBoardURL']                       = 'http://your_dashboard';			// dashboard url
 $CallingHome['ServerURL']                            = 'http://xlxapi.rlx.lu/api.php';		// database server, do not change !!!!
 $CallingHome['PushDelay']                            = 600;					// push delay in seconds
