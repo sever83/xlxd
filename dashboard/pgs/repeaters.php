@@ -159,9 +159,14 @@ for ($i=0;$i<$Reflector->NodeCount();$i++) {
      <tr height="30" bgcolor="'.$odd.'" onMouseOver="this.bgColor=\'#FFFFCA\';" onMouseOut="this.bgColor=\''.$odd.'\';">
       <td align="center">'.($i+1).'</td>
       <td align="center">';
-      list ($Flag, $Name) = $Reflector->GetFlag($Reflector->Nodes[$i]->GetCallSign());
-      if (file_exists("./img/flags/".$Flag.".png")) {
-         echo '<a href="#" class="tip"><img src="./img/flags/'.$Flag.'.png" height="15" alt="'.$Name.'" /><span>'.$Name.'</span></a>';
+# ===== ===== ===== ===== =====
+#      list ($Flag, $Name) = $Reflector->GetFlag($Reflector->Nodes[$i]->GetCallSign());
+#      if (file_exists("./img/flags/".$Flag.".png")) {
+#         echo '<a href="#" class="tip"><img src="./img/flags/'.$Flag.'.png" height="15" alt="'.$Name.'" /><span>'.$Name.'</span></a>';
+# ===== ===== ===== ===== =====
+      if (file_exists("./img/flags/ru.png")) {
+         echo '<a href="#" class="tip"><img src="./img/flags/ru.png" height="15" alt="Russia" /><span>Russia</span></a>';
+# ===== ===== ===== ===== =====
       }
       echo '</td>
       <td><a href="http://www.aprs.fi/'.$Reflector->Nodes[$i]->GetCallSign();
