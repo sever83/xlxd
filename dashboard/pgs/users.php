@@ -135,8 +135,8 @@ for ($i=0;$i<$Reflector->StationCount();$i++) {
       echo '</td>
    <td align="center" width="60">';
    
-      list ($Flag, $Name) = $Reflector->GetFlag($Reflector->Stations[$i]->GetCallSign());
 # ===== ===== ===== ===== =====
+#      list ($Flag, $Name) = $Reflector->GetFlag($Reflector->Stations[$i]->GetCallSign());
 #      if (file_exists("./img/flags/".$Flag.".png")) {
 #         echo '<a href="#" class="tip"><img src="./img/flags/'.$Flag.'.png" height="15" alt="'.$Name.'" /><span>'.$Name.'</span></a>';
 # ===== ===== ===== ===== =====
