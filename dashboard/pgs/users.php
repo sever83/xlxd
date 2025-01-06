@@ -141,7 +141,7 @@ for ($i=0;$i<$Reflector->StationCount();$i++) {
 #         echo '<a href="#" class="tip"><img src="./img/flags/'.$Flag.'.png" height="15" alt="'.$Name.'" /><span>'.$Name.'</span></a>';
 # ===== ===== ===== ===== =====
       if (file_exists("./img/flags/ru.png")) {
-         echo '<a href="#" class="tip"><img src="./img/flags/ru.png" height="15" alt="'RU'" /><span>'RU'</span></a>';
+         echo '<a href="#" class="tip"><img src="./img/flags/ru.png" height="15" alt="Russia" /><span>Russia</span></a>';
 # ===== ===== ===== ===== =====
       }
       echo '</td>
