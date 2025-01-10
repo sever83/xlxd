@@ -159,7 +159,7 @@
 
 #define DMRIDDB_USE_RLX_SERVER          0                                   // 1 = use http, 0 = use local file
 #define DMRIDDB_PATH                    "/xlxd/dmrid.dat"                   // local file path
-#define DMRIDDB_REFRESH_RATE            180                                 // in minutes
+#define DMRIDDB_REFRESH_RATE            15                                 // in minutes
 
 // Wires-X node database ----------------------------------------
 
