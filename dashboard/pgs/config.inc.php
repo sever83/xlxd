@@ -57,7 +57,7 @@ $PageOptions['CustomTXT']                            = '';					// custom text in
 $Service['PIDFile']                                  = '/var/log/xlxd.pid';
 $Service['XMLFile']                                  = '/var/log/xlxd.xml';
 
-$CallingHome['Active']                               = true;					// xlx phone home, true or false
+$CallingHome['Active']                               = false;					// xlx phone home, true or false
 $CallingHome['MyDashBoardURL']                       = 'http://your_dashboard';			// dashboard url
 $CallingHome['ServerURL']                            = 'http://xlxapi.rlx.lu/api.php';		// database server, do not change !!!!
 $CallingHome['PushDelay']                            = 600;					// push delay in seconds
